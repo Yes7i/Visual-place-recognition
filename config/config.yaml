@@ -1,0 +1,5 @@
+dictionary_size: 40
+# 预留参数：当前编码使用精确搜索（FLANN SearchParams(-1)），此值暂不生效
+flann_checks: 32
+top_k: 10
+feature_type: SIFT
