@@ -3,6 +3,20 @@
 基于词袋模型 (Bag-of-Visual-Words) 的视觉位置识别：
 SIFT 特征 → K-Means 视觉词典 → 词频直方图 → TF-IDF 加权 → 余弦距离检索。
 
+## 效果展示
+
+**检索结果详情**
+
+![检索结果详情：查询图片、Top 10 匹配结果及相似度分数](docs/images/results-detail.png)
+
+**网页界面：路口场景**
+
+![网页查询界面和路口场景的检索结果](docs/images/webui-intersection.png)
+
+**网页界面：停车场场景**
+
+![网页查询界面和停车场场景的检索结果](docs/images/webui-parking.png)
+
 ## 依赖
 
 - C++17
